@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.main-contain{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1,.box-2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.img-box{
+    width: 40px;
+}
+.img-box img{
+    width:100%;
+    height: auto;
+}
+.right-btn,.left-btn{
+    padding: 10px;
+}
+.basket-1 p,.basket-2{
+    font-size: 1rem;
+    font-weight: 600;
+}
